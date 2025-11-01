@@ -66,8 +66,7 @@ body {
 }
 
 .text-link.button {
-  font-family: Gt Pressura Standard, Arial, sans-serif;
-  font-weight: 400;
+  color: var(--off-black);
 }
 
 .text-link.button:hover {
@@ -343,16 +342,16 @@ body {
 
 .div-block-5 {
   z-index: 4;
-  position: fixed;
-  inset: 0%;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: #ffffffc2;
+  flex-flow: column;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
   display: none;
-  flex-flow: column;
-  justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.76);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  position: fixed;
+  inset: 0%;
 }
 
 .div-block-6 {
@@ -675,16 +674,10 @@ body {
 .text-small.black {
   color: var(--black);
   text-decoration: none;
-}
-
-.text-small.black.menu {
-  color: var(--black);
-  font-family: Gt Pressura Mono Text, Arial, sans-serif;
-  text-decoration: none;
   display: flex;
 }
 
-.text-small.black.menu:hover {
+.text-small.black:hover {
   color: var(--grey);
 }
 
@@ -695,16 +688,12 @@ body {
   display: flex;
 }
 
-.text-small.white:hover {
+.text-small.white:hover, .text-small.dark-grey, .text-small.dark-grey {
   color: var(--grey);
 }
 
 .text-small.grey {
   color: var(--light-grey);
-}
-
-.text-small.darkgrey {
-  color: var(--grey);
 }
 
 .div-block-10 {
@@ -944,7 +933,7 @@ body {
   justify-content: flex-end;
   align-self: auto;
   align-items: flex-end;
-  width: 100vw;
+  width: 100%;
   height: auto;
   padding: 0 20px 20px;
   display: flex;
@@ -2222,7 +2211,7 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-  .nav-element-1, .project-number {
+  .nav-element-1, .project-number, .div-block-5 {
     display: none;
   }
 
@@ -2257,7 +2246,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .text-link.difference, .text-link.difference.w--current, .heading-1, .heading-1.difference {
+  .text-link.button, .text-link.difference, .text-link.difference.w--current, .heading-1, .heading-1.difference {
     font-size: 24px;
   }
 
@@ -2267,6 +2256,10 @@ body {
 
   .section-2, .section-3 {
     height: 100dvh;
+  }
+
+  .div-block-5 {
+    display: none;
   }
 
   .nav-bar-copy {
