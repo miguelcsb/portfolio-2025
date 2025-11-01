@@ -353,7 +353,7 @@ body {
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   .div-block-5 {
     -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(19px);
     background-color: #000000c2;
     mix-blend-mode: difference;
   }
