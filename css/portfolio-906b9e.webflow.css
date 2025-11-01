@@ -345,20 +345,9 @@ body {
   display: none;
   flex-flow: column;
   justify-content: space-between;
-  background-color: #FAFAFB;
-  mix-blend-mode: normal;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
-
-/* Upgrade only if blur is supported */
-@supports ((-webkit-backdrop-filter: blur(0)) or (backdrop-filter: blur(0))) {
-  .div-block-5 {
-    -webkit-backdrop-filter: blur(19px);
-    backdrop-filter: blur(19px);
-    background-color: rgba(0, 0, 0, 0.76);
-    mix-blend-mode: difference;
-  }
+  background-color: rgba(255, 255, 255, 0.76);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
 .div-block-6 {
