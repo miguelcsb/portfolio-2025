@@ -683,6 +683,17 @@ body {
   color: var(--grey);
 }
 
+.text-small.white {
+  color: var(--white);
+  font-family: Gt Pressura Mono Text, Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-small.white:hover {
+  color: var(--grey);
+}
+
 .text-small.grey {
   color: var(--light-grey);
 }
