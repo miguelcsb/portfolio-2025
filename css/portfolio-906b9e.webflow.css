@@ -703,6 +703,10 @@ body {
   color: var(--light-grey);
 }
 
+.text-small.darkgrey {
+  color: var(--grey);
+}
+
 .div-block-10 {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
