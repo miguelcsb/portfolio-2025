@@ -66,7 +66,12 @@ body {
 }
 
 .text-link.button {
-  color: var(--off-black);
+  font-family: Gt Pressura Standard, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.text-link.button:hover {
+  color: var(--grey);
 }
 
 .text-link.button.difference {
