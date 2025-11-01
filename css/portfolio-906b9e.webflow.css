@@ -350,6 +350,12 @@ body {
   position: absolute;
   inset: 0%;
 }
+/* Fallback for browsers that DON'T support backdrop-filter */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .div-block-5 {
+    background-color: #FAFAFB;
+  }
+}
 
 .div-block-6 {
   padding-top: 53px;
