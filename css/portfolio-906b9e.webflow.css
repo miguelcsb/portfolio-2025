@@ -2129,6 +2129,7 @@ body {
 .section-11 {
   width: 100vw;
   height: 30vh;
+  min-height: 0;
 }
 
 .nav-element-1-copy {
