@@ -206,9 +206,6 @@ body {
 }
 
 .section-2 {
-  background-image: url('../images/00leipzig.jpg');
-  background-position: 50%;
-  background-size: cover;
   justify-content: center;
   align-items: flex-end;
   height: 100vh;
@@ -219,10 +216,14 @@ body {
 
 .section-2.strade {
   background-image: url('../images/HD01strade.jpg');
+  background-position: 50%;
+  background-size: cover;
 }
 
 .section-2.leipzig {
   background-image: url('../images/00leipzig.jpg');
+  background-position: 50%;
+  background-size: cover;
 }
 
 .section-3 {
@@ -427,8 +428,7 @@ body {
 }
 
 .project-hero-container.section-1 {
-  background-image: url('../images/HD07lifeinpastic.jpg');
-  background-size: cover;
+  background-image: none;
   justify-content: center;
   align-items: flex-end;
 }
@@ -1058,6 +1058,7 @@ body {
   align-items: flex-end;
   width: 100vw;
   height: 30vh;
+  min-height: 0;
   padding: 0 20px 20px;
   display: flex;
   position: relative;
