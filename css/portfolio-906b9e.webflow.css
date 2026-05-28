@@ -206,7 +206,7 @@ body {
 }
 
 .section-2 {
-  background-image: url('../images/HD01strade.jpg');
+  background-image: url('../images/00leipzig.jpg');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -215,6 +215,14 @@ body {
   display: flex;
   position: sticky;
   top: 0;
+}
+
+.section-2.strade {
+  background-image: url('../images/HD01strade.jpg');
+}
+
+.section-2.leipzig {
+  background-image: url('../images/00leipzig.jpg');
 }
 
 .section-3 {
@@ -447,6 +455,10 @@ body {
 
 .project-hero-container.section-1.ciclecity {
   background-image: url('../images/HD02cyclecity.jpg');
+}
+
+.project-hero-container.section-1.leipzig {
+  background-image: url('../images/00leipzig.jpg');
 }
 
 .project-info-container {
@@ -715,8 +727,8 @@ body {
 }
 
 .text-medium {
-  color: var(--black);
   width: auto;
+  color: var(--black);
   font-family: Gt Pressura Standard, Arial, sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -1656,11 +1668,11 @@ body {
 }
 
 .image-key-takeaway-lightbox {
+  max-width: 100%;
+  max-height: 100%;
   transform: scale3d(1none, 1none, 1none);
   object-fit: cover;
   transform-style: preserve-3d;
-  max-width: 100%;
-  max-height: 100%;
   display: block;
   overflow: clip;
 }
@@ -1810,11 +1822,11 @@ body {
 .image-nextproject {
   box-sizing: content-box;
   aspect-ratio: 2;
+  width: auto;
+  height: auto;
   transform: scale3d(1none, 1none, 1none);
   object-fit: cover;
   transform-style: preserve-3d;
-  width: auto;
-  height: auto;
   position: static;
   overflow: clip;
 }
@@ -2210,6 +2222,11 @@ body {
   overflow: visible;
 }
 
+.div-block-46 {
+  height: 1vh;
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .nav-element-1, .project-number, .div-block-5 {
     display: none;
@@ -2270,7 +2287,7 @@ body {
     height: 100dvh;
   }
 
-  .project-info-container.section-2.life-in-plastic, .project-info-container.section-2.strade, .project-info-container.section-2.ocio, .project-info-container.section-2.elmee, .project-info-container.section-2.inaction, .project-info-container.section-2.trace, .project-info-container.section-2.ciclecity {
+  .project-info-container.section-2.life-in-plastic, .project-info-container.section-2.strade, .project-info-container.section-2.ocio, .project-info-container.section-2.elmee, .project-info-container.section-2.inaction, .project-info-container.section-2.trace, .project-info-container.section-2.ciclecity, .project-info-container.section-2.leipzig {
     flex-flow: column;
   }
 
@@ -2487,7 +2504,18 @@ body {
     height: 40dvh;
   }
 
-  .section-2, .section-3 {
+  .section-2 {
+    background-image: url('../images/00leipzig.jpg');
+    background-position: 50%;
+    background-size: auto;
+    height: 100dvh;
+  }
+
+  .section-2.strade {
+    background-image: url('../images/strade_cover_mobile.jpg');
+  }
+
+  .section-3 {
     height: 100dvh;
   }
 
@@ -2538,7 +2566,18 @@ body {
     padding-right: 10px;
   }
 
-  .project-hero-container.section-1.life-in-plastic, .project-hero-container.section-1.strade, .project-hero-container.section-1.ocio, .project-hero-container.section-1.elmee, .project-hero-container.section-1.inaction, .project-hero-container.section-1.trace {
+  .project-hero-container.section-1.life-in-plastic {
+    height: 100dvh;
+    position: relative;
+  }
+
+  .project-hero-container.section-1.strade {
+    background-image: url('../images/strade_cover_mobile.jpg');
+    height: 100dvh;
+    position: relative;
+  }
+
+  .project-hero-container.section-1.ocio, .project-hero-container.section-1.elmee, .project-hero-container.section-1.inaction, .project-hero-container.section-1.trace {
     height: 100dvh;
     position: relative;
   }
@@ -2550,6 +2589,13 @@ body {
     background-clip: border-box;
     height: 100dvh;
     position: relative;
+  }
+
+  .project-hero-container.section-1.leipzig {
+    background-image: url('../images/leipzig_cover_mobile.jpg');
+    height: 100dvh;
+    position: relative;
+    top: 0;
   }
 
   .project-info-container.section-2.life-in-plastic {
@@ -2577,7 +2623,11 @@ body {
     padding-right: 10px;
   }
 
-  .project-continuation-container.section-3.life-in-plastic, .project-continuation-container.section-3.strade, .project-continuation-container.section-3.ocio, .project-continuation-container.section-3.elmee, .project-continuation-container.section-3.inaction, .project-continuation-container.section-3.trace, .project-continuation-container.section-3.ciclecity {
+  .project-info-container.section-2.leipzig {
+    flex-flow: column;
+  }
+
+  .project-continuation-container.section-3.life-in-plastic, .project-continuation-container.section-3.strade, .project-continuation-container.section-3.ocio, .project-continuation-container.section-3.elmee, .project-continuation-container.section-3.inaction, .project-continuation-container.section-3.trace, .project-continuation-container.section-3.ciclecity, .project-continuation-container.section-3.leipzig {
     height: auto;
   }
 
@@ -3069,6 +3119,11 @@ body {
 
   .div-block-44, .div-block-45 {
     display: none;
+  }
+
+  .div-block-46 {
+    height: 110vh;
+    display: block;
   }
 }
 
