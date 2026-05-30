@@ -441,6 +441,7 @@ body {
 
 .project-hero-container.section-1.strade {
   background-image: url('../images/HD01strade.jpg');
+  background-position: 50%;
   background-size: cover;
 }
 
@@ -3156,13 +3157,4 @@ body {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
-/* =========================
-   HERO OVERRIDES (GLOBAL FIX)
-   ========================= */
-
-.project-hero-container {
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
 }
