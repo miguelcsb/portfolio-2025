@@ -3157,3 +3157,12 @@ body {
   font-style: normal;
   font-display: swap;
 }
+/* =========================
+   HERO OVERRIDES (GLOBAL FIX)
+   ========================= */
+
+.project-hero-container {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
