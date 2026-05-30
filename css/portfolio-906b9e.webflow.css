@@ -433,32 +433,45 @@ body {
   align-items: flex-end;
 }
 
+.project-hero-container.section-1.life-in-plastic {
+  background-image: url('../images/HD07lifeinpastic.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
 .project-hero-container.section-1.strade {
   background-image: url('../images/HD01strade.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.ocio {
   background-image: url('../images/HD03ocio.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.elmee {
   background-image: url('../images/HD04elmee.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.inaction {
   background-image: url('../images/HD05inaction.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.trace {
   background-image: url('../images/HD06trace.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.ciclecity {
   background-image: url('../images/HD02cyclecity.jpg');
+  background-size: cover;
 }
 
 .project-hero-container.section-1.leipzig {
   background-image: url('../images/00leipzig.jpg');
+  background-size: cover;
 }
 
 .project-info-container {
